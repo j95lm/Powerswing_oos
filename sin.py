@@ -37,9 +37,9 @@ Remember to introduce this value in the following format --> R + Xj
 Otherwise, the program will not identify it as a number.
 Please insert impedance value for Zs (source side impedance):""")
         self.Zs = input()
-        print("Please insert frecuency(w) value for Zl (source side impedance):")
+        print("Please insert impedance value for Zl (source side impedance):")
         self.Zl = input()
-        print("Please insert frecuency(w) value for Zr (load side impedance):")
+        print("Please insert impedance value for Zr (load side impedance):")
         self.Zr = input()
         print("We have all the information we need to study your out of step power swing and to show it to you!")
         self.calculations()
@@ -91,7 +91,8 @@ Please insert impedance value for Zs (source side impedance):""")
 1) See both Es and Er
 2) See Er - Es signal
 3) See the impedance R-X graph
-4) Watch the complete animation for the impedance reading at evaluation point""")
+4) Watch the complete animation for the impedance reading at evaluation point
+Your option:""")
         choice = input()
 
         if choice == 1 :
